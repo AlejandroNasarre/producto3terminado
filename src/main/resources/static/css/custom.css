@@ -1,4 +1,6 @@
 /* HEADER */
+
+
 .main-header .nav-item--orders a{
     display: inline-block;
     position: relative;
@@ -37,26 +39,26 @@
 
 @keyframes banner {
     0% {
-        background-image: url('../images/banner_1.jpg');
+        background-image: url('../images/banner1.jpg');
     }
     33% {
-        background-image: url('../images/banner_1.jpg');
+        background-image: url('../images/banner1.jpg');
     }
 
 
     34% {
-        background-image: url('../images/banner_2.jpg');
+        background-image: url('../images/banner2.jpg');
     }
     66% {
-        background-image: url('../images/banner_2.jpg');
+        background-image: url('../images/banner2.jpg');
     }
 
 
     67% {
-        background-image: url('../images/banner_3.jpg');
+        background-image: url('../images/banner3.jpg');
     }
     100% {
-        background-image: url('../images/banner_3.jpg');
+        background-image: url('../images/banner3.jpg');
     }
 }
 .main-header .nav-item--user,
@@ -111,4 +113,12 @@
 /** FORMS **/
 .login-form .invalid-feedback{
     display: block;
+}
+
+.header{
+    color: orange;
+}
+
+.background_change{
+    background-color: orange;
 }
