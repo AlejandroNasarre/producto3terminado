@@ -26,7 +26,7 @@
     background-position: center;
     background-size: cover;
     animation: banner 15s infinite linear;
-    background-image: url("../images/banner_1.jpg");
+    background-image: url("../images/banner1.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
